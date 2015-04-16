@@ -1,0 +1,48 @@
+{
+  "title": "lexington lunch spots",
+  "name": "lexington-lunch-spots",
+  "description": "",
+  "licenses": [
+    {
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "title": "CC0 1.0",
+      "id": "CC0-1.0"
+    }
+  ],
+  "resources": [
+    {
+      "name": "lunch_spots.csv",
+      "path": "lunch_spots.csv",
+      "mediatype": "text/csv",
+      "bytes": 53,
+      "schema": {
+        "fields": [
+          {
+            "name": "name",
+            "type": "string"
+          },
+          {
+            "name": "location",
+            "type": "string"
+          },
+          {
+            "name": "cuisine",
+            "type": "string"
+          },
+          {
+            "name": "vegan_friendly",
+            "type": "boolean"
+          },
+          {
+            "name": "cash_only",
+            "type": "boolean"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ]
+}
