@@ -1,1 +1,3 @@
-name,location,cuisine,vegan_friendly,cash_only,notes
+name,location,lat,lon,cuisine,vegan_friendly,cash_only,notes
+Sunrise Bakery,,,,,,TRUE,
+Sidebar Grill,,,,,TRUE,FALSE,be prepared for a long lunch
